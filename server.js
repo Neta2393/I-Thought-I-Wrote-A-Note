@@ -9,7 +9,7 @@ const htmlRoutes = require('./routes/htmlroutes.js');
 const app = express();
 
 // Set PORT
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3180;
 
 // Middleware to complete request - response cycle
 app.use(express.urlencoded({ extended: true }));

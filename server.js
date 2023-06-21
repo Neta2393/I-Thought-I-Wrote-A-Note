@@ -3,8 +3,8 @@
 const express = require('express');
 
 // Direct server to use routes
-const apiRoutes = require('./public/routes/apiRoutes.js');
-const htmlRoutes = require('./public/routes/htmlRoutes.js');
+const apiRoutes = require('./public/routes/apiRoutes');
+const htmlRoutes = require('./public/routes/htmlRoutes');
 
 // The line of code below is to create server
 const app = express();

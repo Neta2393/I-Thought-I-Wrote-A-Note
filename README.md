@@ -15,6 +15,7 @@
 5. [Tests](#tests)
 6. [Images](#images)
 7. [Authors](#authors)
+8. [Challenges/Appreciation](#challenges-appreciation)
 
 
 # About
@@ -50,7 +51,6 @@ NPM Install Inquirer/Express, Ensured the Heroku CLI was up and running remotely
 MIT
 
 # Contributing
-Benethea Hardin
 
 
 # Tests
@@ -66,5 +66,6 @@ npm run start (checked for any bugs and errors), git push heroku main (I used th
 # Authors
 Benethea Hardin (https://github.com/Neta2393/I-Thought-I-Wrote-A-Note)
 
-
+# Challenges and Appreciation
+While still learrning skills and such I have learned to choose battles. While developing this application I struggled to get coding correct and to deploy successfully. I understand that I still have a long way to go. Learning how to deploy to Heroku successfully also proved to be a challenge. Saving the data and my new note and save note button did not sync well. I appreciate the time and effort that you took to review. Thank You!
 

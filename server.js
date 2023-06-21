@@ -16,9 +16,9 @@ const PORT = process.env.PORT || 5500;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static('public'));
-app.use('/api', apiRoutes);
-app.use('/html', htmlRoutes);
+app.use(express.static('routes'));
+app.use('public\routes\apiRoutes.js', apiRoutes);
+app.use('public\routes\htmlRoutes.js', htmlRoutes);
 
 //App Listener
 app.listen(PORT, () => {

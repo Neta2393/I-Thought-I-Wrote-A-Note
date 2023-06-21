@@ -1,10 +1,10 @@
-// Dependencies
+// Installed dependents
 const util = require('util');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 
-// Variables to return response in form of promise object instead of using callback function
+// Returning promise
 const readNote = util.promisify(fs.readFile);
 const writeNote = util.promisify(fs.writeFile);
 
@@ -36,10 +36,10 @@ class Save {
             throw new Error('Both title and text can not be blank');
         }
 
-        //Use UUID package to add unique IDs
+        //Use UUID to indivualize new input
         const newId = uuidv4()
 
-        // Retrieve, add, and update notes
+        // Grab, Add and update notes
         return this.retrieveNotes()
             .then(notes => [...notes, newNote])
             .then(updatedNotes => this.write(updatedNotes))

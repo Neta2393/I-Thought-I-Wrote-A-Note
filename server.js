@@ -21,5 +21,5 @@ app.use('/', htmlRoutes);
 
 // Listener
 app.listen(PORT, () => {
-    console.log(`Hello and welcome to my note taker app ${3180}!`);
+    console.log(`Hello and welcome to my note taker app on port ${3180}!`);
 });

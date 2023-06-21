@@ -1,6 +1,10 @@
 # I-Thought-I-Wrote-A-Note
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# Deployed App
+[Deployed page](https://ithoughtiwroteanote-9182769b488d.herokuapp.com/)
+
+
 # Table of Contents
 1. [About](#about)
    1. [User Story](#user-story)
@@ -9,9 +13,8 @@
 3. [License](#license)
 4. [Contributing](#contributing)
 5. [Tests](#tests)
-6. [Developement](#developement)
-7. [Images](#images)
-8. [Authors](#authors)
+6. [Images](#images)
+7. [Authors](#authors)
 
 
 # About
@@ -40,24 +43,23 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 # Installation
-
+NPM Install Inquirer/Express, Ensured the Heroku CLI was up and running remotely, 
 
 
 # License
 MIT
 
 # Contributing
-
+Benethea Hardin
 
 
 # Tests
-[Deployed page](https://ithoughtiwroteanote-9182769b488d.herokuapp.com/)
+npm run start (checked for any bugs and errors), git push heroku main (I used this in the command line alot it helped to know if my app was successfully deployed or not.)
 
-# Development
 
 
 # Images
-
+[!img]
 
 
 # Authors

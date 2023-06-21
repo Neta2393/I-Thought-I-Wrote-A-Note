@@ -20,7 +20,7 @@ app.use(express.static('public'));
 app.use('/api', apiRoutes);
 app.use('/html', htmlRoutes);
 
-// Listener
+//App Listener
 app.listen(PORT, () => {
     console.log(`Hello and welcome to my note taker app on port ${5500}!`);
 });

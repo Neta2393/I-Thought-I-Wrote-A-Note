@@ -5,10 +5,10 @@ const express = require('express');
 const apiRoutes = require('./assets/js/routes/apiRoutes.js');
 const htmlRoutes = require('./assets/js/routes/htmlroutes.js');
 
-// Create server
+// The line of code below is to create server
 const app = express();
 
-// Set PORT
+// The line of code below is the set PORT
 const PORT = process.env.PORT || 3180;
 
 // Middleware to complete request - response cycle
@@ -21,5 +21,5 @@ app.use('/', htmlRoutes);
 
 // Listener
 app.listen(PORT, () => {
-    console.log(`API server is ready on port ${3180}!`);
+    console.log(`Hello and welcome to my note taker app ${3180}!`);
 });

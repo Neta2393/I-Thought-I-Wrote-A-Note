@@ -3,7 +3,7 @@ const router = require('express').Router();
 const saveData = require('../../../db/saveData');
 
 // The line of code below is the GET Request 
-router.get('public\assets\notes.html', function (req, res) {
+router.get('/notes', function (req, res) {
     saveData
         .retrieveNotes()
         .then(notes => res.json(notes))
@@ -11,7 +11,7 @@ router.get('public\assets\notes.html', function (req, res) {
 });
 
 //The line of code below is the POST Request
-router.post('', function (req, res) {
+router.post('/notes', function (req, res) {
     saveData
         .addNote(req.body)
         .then((note) => res.json(note))

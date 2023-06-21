@@ -1,8 +1,8 @@
-// Dependencies 
+// The code below are the dependencies 
 const router = require('express').Router();
-const saveData = require('../db/saveData');
+const saveData = require('../../../db/saveData');
 
-// GET Request 
+// The line of code below is the GET Request 
 router.get('/notes', function (req, res) {
     saveData
         .retrieveNotes()
@@ -10,15 +10,15 @@ router.get('/notes', function (req, res) {
         .catch(err => res.status(500).json(err));
 });
 
-// POST Request
-router.post('/notes', function (req, res) {
+//The line of code below is the POST Request
+router.post('', function (req, res) {
     saveData
         .addNote(req.body)
         .then((note) => res.json(note))
         .catch(err => res.status().json(err));
 });
 
-// DELETE Request
+//The line of code below is the DELETE Request
 router.delete('/notes/:id', function (req, res) {
     saveData
         .deleteNote(req.params.id)

@@ -37,7 +37,7 @@ class Save {
         }
 
         //Use UUID package to add unique IDs
-        const newNote = { title, text, id: uuidv4() };
+        const newId = uuidv4()
 
         // Retrieve, add, and update notes
         return this.retrieveNotes()

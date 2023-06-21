@@ -1,9 +1,10 @@
 // Dependencies 
+
 const express = require('express');
 
 // Direct server to use routes
-const apiRoutes = require('./assets/js/routes/apiRoutes.js');
-const htmlRoutes = require('./assets/js/routes/htmlroutes.js');
+const apiRoutes = require('./public/routes/apiRoutes.js');
+const htmlRoutes = require('./public/routes/htmlRoutes.js');
 
 // The line of code below is to create server
 const app = express();

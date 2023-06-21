@@ -59,7 +59,8 @@ npm run start (checked for any bugs and errors), git push heroku main (I used th
 
 
 # Images
-[!img]
+[!img]![ithoughtiwroteanote-9182769b488d herokuapp com_](https://github.com/Neta2393/I-Thought-I-Wrote-A-Note/assets/128006949/0f9518c0-fe6e-4a1f-b16a-be963244d32d)
+
 
 
 # Authors

@@ -1,6 +1,7 @@
 // Dependencies 
-
 const express = require('express');
+const path = require('path');
+const api = require('./assets/style/js/index.js');
 
 // Direct server to use routes
 const apiRoutes = require('./public/routes/apiRoutes');
@@ -16,11 +17,10 @@ const PORT = process.env.PORT || 5500;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static('routes'));
-app.use('public\routes\apiRoutes.js', apiRoutes);
-app.use('public\routes\htmlRoutes.js', htmlRoutes);
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use('/api', api);
 
 //App Listener
-app.listen(PORT, () => {
-    console.log(`Hello and welcome to my note taker app on port ${5500}!`);
-});
+app.listen(PORT, () => console.log(`App listening at http://localhost:${PORT} 🚀`));
+

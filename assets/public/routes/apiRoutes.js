@@ -1,6 +1,6 @@
 // Dependencies 
 const router = require('express').Router();
-const saveData = require('../../db/saveData');
+const saveData = require('../routes/saveData');
 
 // GET Request 
 router.get('public\routes\htmlRoutes.js', function (req, res) {

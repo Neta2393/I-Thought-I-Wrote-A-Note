@@ -1,8 +1,8 @@
 const express = require('express');
 
-// Import our modular routers for /tips and /feedback
-const apiRoutes = require('');
-const htmlRoutes = require('public\routes\htmlRoutes.js');
+
+const apiRoutes = require('./api');
+const htmlRoutes = require('./html');
 
 
 const app = express();
